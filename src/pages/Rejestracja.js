@@ -67,18 +67,21 @@ const Rejestracja = () => {
       />
       <section className="panel-logowania">
         <PasswordFormContainer
+              inputType="Text"
               credentialsInput="Login"
               inputLabel="Wprowadź swój Login"
               onInputChange={(value) => setLogin(value)}
               propTop="0rem"
         />
         <PasswordFormContainer
+              inputType="Password"
               credentialsInput="Hasło"
               inputLabel="Wprowadź swoje hasło"
               onInputChange={(value) => setPassword(value)}
               propTop="6rem"
         />
         <PasswordFormContainer
+              inputType="Password"
               credentialsInput="Potwierdz Hasło"
               inputLabel="Wprowadź ponownie swoje hasło"
               onInputChange={(value) => setPassword2(value)}
