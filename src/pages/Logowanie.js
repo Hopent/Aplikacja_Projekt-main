@@ -74,11 +74,13 @@ const Logowanie = () => {
         <div className="panel-logowania1">
           <div className="zapomniae-hasa">Zapomniałeś hasła?</div>
             <PasswordFormContainer
+              inputType="Password"
               credentialsInput="Hasło"
               inputLabel="Wprowadź swoje hasło"
               onInputChange={(value) => setPassword(value)}
             />
             <PasswordFormContainer
+              inputType="Text"
               credentialsInput="Login"
               inputLabel="Wprowadź swój login"
               onInputChange={(value) => setLogin(value)}
