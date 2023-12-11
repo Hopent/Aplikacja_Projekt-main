@@ -1,0 +1,86 @@
+.przycisk-wyboru2 {
+  position: absolute;
+  height: 9.56%;
+  top: 83.49%;
+  bottom: 6.95%;
+  left: calc(50% - 84px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  border: 2px solid var(--secondary);
+  box-sizing: border-box;
+  width: 10.13rem;
+  cursor: pointer;
+}
+.czytaj-dalej1 {
+  position: absolute;
+  height: 4.95%;
+  width: 43%;
+  top: 85.79%;
+  left: 30%;
+  display: inline-block;
+  color: var(--text);
+  text-align: center;
+}
+.sign-out-squre-fill-icon8 {
+  position: absolute;
+  height: 5.61%;
+  width: 5.67%;
+  top: 85.48%;
+  right: 68.67%;
+  bottom: 8.91%;
+  left: 25.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.europejski-satelita-badawczy {
+  margin: 0;
+}
+.europejski-satelita-badawczy-container {
+  height: 46.42%;
+  top: 29.91%;
+  left: calc(50% - 118px);
+  color: var(--color-darkgray-100);
+  width: 14.38rem;
+}
+.europejski-satelita-badawczy-container,
+.lis-20237,
+.satelita-zblia-si,
+.spacenewscom {
+  position: absolute;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.satelita-zblia-si {
+  height: 6.26%;
+  top: 18.07%;
+  left: calc(50% - 112px);
+  font-size: var(--font-size-sm);
+  color: var(--secondary);
+  width: 13.94rem;
+}
+.lis-20237,
+.spacenewscom {
+  height: 6.23%;
+  width: 35.33%;
+  top: 6.23%;
+  left: 56%;
+  font-weight: 500;
+}
+.lis-20237 {
+  width: 22.33%;
+  top: 6.2%;
+  left: 9%;
+}
+.newsy9 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--dark);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 18.75rem;
+  height: 20.06rem;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightgray);
+  font-family: var(--nav);
+}

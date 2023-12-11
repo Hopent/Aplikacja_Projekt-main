@@ -1,0 +1,146 @@
+.logowanie-z-nieznanego {
+  position: absolute;
+  top: 13.5rem;
+  left: 2.44rem;
+  letter-spacing: 0.03em;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.content-child {
+  position: absolute;
+  top: 13.81rem;
+  left: 18.75rem;
+  border-radius: 50%;
+  background-color: var(--color-firebrick);
+  width: 0.81rem;
+  height: 0.81rem;
+}
+.logowanie-zakoczone-powodzeni {
+  position: absolute;
+  top: 18.75rem;
+  left: 2.44rem;
+  letter-spacing: 0.03em;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.content-inner,
+.content-item {
+  position: absolute;
+  top: 19.06rem;
+  left: 18.75rem;
+  border-radius: 50%;
+  background-color: var(--primary);
+  width: 0.81rem;
+  height: 0.81rem;
+}
+.content-inner {
+  top: 24.31rem;
+}
+.kto-prbuje-zalogowa,
+.udao-ci-si {
+  position: absolute;
+  top: 15.25rem;
+  left: 2.44rem;
+  letter-spacing: 0.03em;
+  line-height: 1.5rem;
+  color: var(--text);
+}
+.udao-ci-si {
+  top: 20.5rem;
+}
+.logowanie-zakoczone-powodzeni1,
+.udao-ci-si1 {
+  position: absolute;
+  left: 2.5rem;
+  letter-spacing: 0.03em;
+  line-height: 1.5rem;
+}
+.logowanie-zakoczone-powodzeni1 {
+  top: 24rem;
+  font-weight: 600;
+}
+.udao-ci-si1 {
+  top: 25.75rem;
+  color: var(--text);
+}
+.content-child1,
+.content-child2,
+.content-child3 {
+  position: absolute;
+  width: 22.5rem;
+  height: 0.06rem;
+  opacity: 0.02;
+}
+.content-child1 {
+  top: 17.72rem;
+  left: 0.94rem;
+}
+.content-child2,
+.content-child3 {
+  top: 22.97rem;
+  left: calc(50% - 187.5px);
+}
+.content-child3 {
+  top: 28.22rem;
+  height: 0.13rem;
+}
+.filter {
+  position: absolute;
+  height: 4.86%;
+  width: 5.43%;
+  top: 0;
+  right: 0;
+  bottom: 95.14%;
+  left: 94.57%;
+}
+.content {
+  position: absolute;
+  top: -1.06rem;
+  left: -0.94rem;
+  width: 25.31rem;
+  height: 28.31rem;
+}
+.powiadomienia2 {
+  position: absolute;
+  top: 7.69rem;
+  left: calc(50% - 195px);
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+  color: var(--text);
+  text-align: center;
+  display: inline-block;
+  width: 24.31rem;
+  height: 4.56rem;
+}
+.grny-pasek-nawigacyjny7 {
+  position: absolute;
+  top: 3.88rem;
+  left: 15.94rem;
+  width: 4.38rem;
+  height: 1.56rem;
+}
+.zamknij-icon2 {
+  position: absolute;
+  height: 3.08%;
+  width: 6.67%;
+  top: 8.08%;
+  right: 86.67%;
+  bottom: 88.85%;
+  left: 6.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+.powiadomienia1 {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 48.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-100);
+  font-family: var(--nav);
+}

@@ -1,0 +1,181 @@
+
+.subtract-icon {
+  position: relative;
+  width: 1.09rem;
+  height: 1.22rem;
+}
+.ikonka-strony-gwnej4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 62.13%;
+  width: 9.19%;
+  top: 0;
+  right: 83.17%;
+  bottom: 37.87%;
+  left: 7.64%;
+}
+
+
+.galeria8,
+.home5,
+.katalog4,
+.mapa6 {
+  position: absolute;
+  height: 31.91%;
+  width: 24.43%;
+  top: 68.09%;
+  left: 0;
+  display: inline-block;
+}
+
+.galeria8,
+.katalog4,
+.mapa6 {
+  height: 30.85%;
+  width: 18.75%;
+  left: 28.71%;
+}
+
+.galeria8,
+.mapa6 {
+  left: 81.25%;
+}
+.mapa6 {
+  left: 54.98%;
+}
+
+.ikonka-katalogu-child1,
+.ikonka-katalogu-inner {
+  position: absolute;
+  height: 69.86%;
+  width: 44.19%;
+  top: 13.36%;
+  right: 46.51%;
+  bottom: 16.78%;
+  left: 9.3%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ikonka-katalogu-child1 {
+  right: 9.3%;
+  left: 46.51%;
+}
+.ikonka-katalogu1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 62.13%;
+  width: 9.19%;
+  top: 0;
+  right: 57.21%;
+  bottom: 37.87%;
+  left: 33.6%;
+}
+.ikonka-galerii-child1,
+.ikonka-galerii-child2,
+.ikonka-galerii-child3 {
+  position: absolute;
+  bottom: 13.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ikonka-galerii-child1 {
+  height: 73.29%;
+  width: 64.78%;
+  top: 13.36%;
+  right: 25.91%;
+  left: 9.3%;
+  border-radius: var(--br-11xs);
+}
+.ikonka-galerii-child2,
+.ikonka-galerii-child3 {
+  height: 48.63%;
+  width: 77.74%;
+  top: 38.01%;
+  right: 11.96%;
+  left: 10.3%;
+}
+.ikonka-galerii-child3 {
+  height: 6.85%;
+  width: 31.56%;
+  top: 58.9%;
+  right: 34.22%;
+  bottom: 34.25%;
+  left: 34.22%;
+  border-radius: var(--br-11xs);
+}
+.ikonka-galerii1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 62.13%;
+  width: 9.19%;
+  top: 0;
+  right: 4.67%;
+  bottom: 37.87%;
+  left: 86.13%;
+}
+.ikonka-mapy-child1,
+.ikonka-mapy-child2,
+.ikonka-mapy-child3 {
+  position: absolute;
+  height: 65.07%;
+  width: 81.4%;
+  top: 17.47%;
+  right: 9.3%;
+  bottom: 17.47%;
+  left: 9.3%;
+  border-radius: 0.45px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ikonka-mapy-child2,
+.ikonka-mapy-child3 {
+  height: 50%;
+  width: 6.64%;
+  top: 29.11%;
+  right: 30.23%;
+  bottom: 20.89%;
+  left: 63.12%;
+}
+.ikonka-mapy-child3 {
+  top: 20.89%;
+  right: 63.46%;
+  bottom: 29.11%;
+  left: 29.9%;
+}
+.ikonka-mapy1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 62.13%;
+  width: 9.19%;
+  top: 0;
+  right: 30.94%;
+  bottom: 37.87%;
+  left: 59.87%;
+}
+.dolny-pasek-nawigacyjny9 {
+  margin: 0;
+  position: fixed;
+  bottom: 10rem;
+  left: calc(50% - 176.5px);
+  width: 20.46rem;
+  height: 2.94rem;
+  text-align: center;
+  font-size: var(--nav-size);
+  color: var(--text);
+  font-family: var(--nav);
+}

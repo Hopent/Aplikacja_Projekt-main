@@ -1,0 +1,134 @@
+.zdjcie-icon1 {
+  position: absolute;
+  height: 49.17%;
+  width: 102.67%;
+  top: 0;
+  right: -1.33%;
+  bottom: 50.83%;
+  left: -1.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kafelek1 {
+  position: absolute;
+  height: 97.62%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 2.38%;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-200);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.na-zdjciu-moemy1 {
+  height: 64.73%;
+  width: 81.33%;
+  top: 35.27%;
+  left: 9.67%;
+}
+.fot-nasacom1,
+.lis-20231,
+.na-zdjciu-moemy1,
+.o-zdjciu1 {
+  position: absolute;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.o-zdjciu1 {
+  height: 8.61%;
+  width: 67.67%;
+  top: 19.69%;
+  left: 16.33%;
+  font-size: var(--font-size-base);
+  color: var(--secondary);
+  text-align: center;
+}
+.fot-nasacom1,
+.lis-20231 {
+  height: 6.56%;
+  width: 31.67%;
+  top: 6.48%;
+  left: 59.67%;
+  font-weight: 500;
+}
+.lis-20231 {
+  height: 6.48%;
+  width: 22.33%;
+  left: 9%;
+}
+.newsy1 {
+  position: absolute;
+  height: 57.64%;
+  width: 100%;
+  top: 53.66%;
+  right: 0;
+  bottom: -11.3%;
+  left: 0;
+}
+.property-1variant2,
+.property-1variant31,
+.property-1variant41 {
+  position: absolute;
+  top: 512px;
+  left: calc(50% - 149px);
+  width: 300px;
+  height: 423px;
+}
+.property-1variant31,
+.property-1variant41 {
+  top: 997px;
+  left: calc(50% - 148px);
+}
+.property-1variant41 {
+  top: 1482px;
+}
+.na-zdjciu-moemy4 {
+  top: 86px;
+  left: calc(50% - 121px);
+  width: 244px;
+  height: 157.8px;
+}
+.fot-nasacom4,
+.na-zdjciu-moemy4,
+.o-zdjciu4 {
+  position: absolute;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.o-zdjciu4 {
+  height: 8.61%;
+  top: 19.69%;
+  left: calc(50% - 101px);
+  font-size: var(--font-size-base);
+  color: var(--secondary);
+  text-align: center;
+  width: 203px;
+}
+.fot-nasacom4 {
+  height: 6.56%;
+  width: 31.67%;
+  top: 6.56%;
+  left: 59.67%;
+  font-weight: 500;
+}
+.property-1default1 {
+  position: absolute;
+  top: 20px;
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 423px;
+}
+.galeria1 {
+  border-radius: var(--br-8xs);
+  border: 1px dashed var(--color-blueviolet);
+  box-sizing: border-box;
+  width: 340px;
+  height: 1989px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-100);
+  font-family: var(--nav);
+}

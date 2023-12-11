@@ -1,0 +1,43 @@
+.galactic-atlas,
+.odkryj-z-nami {
+  position: relative;
+  display: inline-block;
+  width: 24.31rem;
+  flex-shrink: 0;
+}
+.galactic-atlas {
+  font-weight: 800;
+  height: 4.56rem;
+}
+.odkryj-z-nami {
+  font-size: var(--font-size-sm);
+  color: var(--secondary);
+  height: 2.31rem;
+  margin-top: -1.37rem;
+}
+.frame4,
+.napisy1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.napisy1 {
+  width: 24.31rem;
+  height: 5.5rem;
+  position: undefined;
+  margin-right: 0.06rem;
+}
+.frame4 {
+  position: absolute;
+  top: 32rem;
+  left: -0.94rem;
+  width: 24.38rem;
+  height: 12.63rem;
+  overflow: hidden;
+  gap: var(--gap-41xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--text);
+  font-family: var(--nav);
+}

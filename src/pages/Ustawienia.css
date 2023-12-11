@@ -1,0 +1,310 @@
+.rectangle-icon {
+  position: absolute;
+  height: 66.67%;
+  width: 77.08%;
+  top: 8.33%;
+  right: 11.25%;
+  bottom: 25%;
+  left: 11.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ikona-powiadomie-child1 {
+  position: absolute;
+  height: 41.67%;
+  width: 41.67%;
+  top: 83.33%;
+  right: -4.17%;
+  bottom: -25%;
+  left: 62.5%;
+  border-radius: 50%;
+  border: 2px solid var(--secondary);
+  box-sizing: border-box;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.ikona-powiadomie2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 2.88rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.ikona-wyszukiwarki-child4,
+.ikona-wyszukiwarki-child5 {
+  position: absolute;
+  height: 66.67%;
+  width: 66.67%;
+  top: 12.5%;
+  right: 20.83%;
+  bottom: 20.83%;
+  left: 12.5%;
+  border-radius: 50%;
+  border: 2px solid var(--secondary);
+  box-sizing: border-box;
+}
+.ikona-wyszukiwarki-child5 {
+  height: 33.33%;
+  width: 33.33%;
+  top: 29.17%;
+  right: 37.5%;
+  bottom: 37.5%;
+  left: 29.17%;
+}
+.ikona-wyszukiwarki-child6 {
+  position: absolute;
+  height: 20.83%;
+  width: 20.83%;
+  top: 66.67%;
+  right: 12.5%;
+  bottom: 12.5%;
+  left: 66.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ikona-wyszukiwarki2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0.06rem;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.grny-pasek-nawigacyjny3 {
+  position: absolute;
+  top: 3.88rem;
+  left: 15.94rem;
+  width: 4.38rem;
+  height: 1.56rem;
+}
+.ustawienia1 {
+  position: absolute;
+  top: 7.69rem;
+  left: calc(50% - 195px);
+  font-size: var(--font-size-13xl);
+  font-weight: 800;
+  text-align: center;
+  display: inline-block;
+  width: 24.31rem;
+  height: 4.56rem;
+}
+.vector-icon1,
+.vector-icon3 {
+  position: absolute;
+  height: 70.83%;
+  width: 70.83%;
+  top: 14.58%;
+  right: 14.58%;
+  bottom: 14.58%;
+  left: 14.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon3 {
+  height: 100%;
+  width: 100%;
+  top: 262.5%;
+  right: -100%;
+  bottom: -262.5%;
+  left: 100%;
+  opacity: 0;
+}
+.zamknij2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 3.08%;
+  width: 6.67%;
+  top: 8.08%;
+  right: 86.67%;
+  bottom: 88.85%;
+  left: 6.67%;
+}
+.ustawienia-konta {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.edytuj-profil1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--nav);
+  color: var(--text);
+  text-align: left;
+}
+.vector-icon4 {
+  position: relative;
+  width: 0.46rem;
+  height: 0.75rem;
+}
+.edytuj-profil-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 3.38rem;
+  left: 0;
+  width: 17.59rem;
+  height: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10.81rem;
+}
+.frame-child {
+  position: relative;
+  width: 3.44rem;
+  height: 1.5rem;
+}
+.zmie-haso-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 6.81rem;
+  left: 0;
+  width: 20.56rem;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10.75rem;
+}
+.powiadomienia {
+  position: relative;
+  font-weight: 600;
+}
+.frame-item {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 3.5rem;
+  height: 1.81rem;
+}
+.powiadomienia-parent {
+  position: absolute;
+  top: 9.75rem;
+  left: 0;
+  width: 19.06rem;
+  height: 1.81rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.5rem;
+  color: var(--text);
+}
+.vector-icon5 {
+  position: absolute;
+  height: 12.7%;
+  width: 7.29%;
+  top: 87.3%;
+  right: 0;
+  bottom: 0;
+  left: 92.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.o-aplikacji,
+.ustawienia-konta-parent {
+  position: absolute;
+  color: var(--secondary);
+}
+.ustawienia-konta-parent {
+  top: 13rem;
+  left: 1.94rem;
+  width: 20.56rem;
+  height: 11.81rem;
+}
+.o-aplikacji {
+  top: 0;
+  left: 0.06rem;
+}
+.vector-icon6 {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.wicej-o-nas-parent {
+  position: absolute;
+  top: 3.31rem;
+  left: 0.06rem;
+  width: 20.56rem;
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11.75rem;
+}
+.frame-inner {
+  position: relative;
+  width: 3.44rem;
+  height: 7.25rem;
+}
+.polityka-prywatnoci-parent {
+  position: absolute;
+  top: 3.81rem;
+  left: 0.06rem;
+  width: 20.56rem;
+  height: 7.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6.31rem;
+}
+.regulamin {
+  position: absolute;
+  top: 9.69rem;
+  left: 0;
+  font-weight: 600;
+}
+.vector-icon7 {
+  position: absolute;
+  height: 12.7%;
+  width: 7.27%;
+  top: 87.3%;
+  right: 0;
+  bottom: 0;
+  left: 92.73%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.o-aplikacji-parent {
+  position: absolute;
+  top: 27.06rem;
+  left: 1.81rem;
+  width: 20.63rem;
+  height: 11.81rem;
+}
+.ustawienia {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 48.75rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--text);
+  font-family: var(--nav);
+}

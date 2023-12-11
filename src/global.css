@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/public/NeueMontreal-Regular.otf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --nav: Montserrat;
+  --font-neue-montreal: "Neue Montreal";
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --nav-size: 0.63rem;
+  --font-size-base: 1rem;
+  --font-size-xs: 0.75rem;
+  --font-size-13xl: 2rem;
+  --font-size-lg: 1.13rem;
+  --font-size-sm: 0.88rem;
+  --font-size-17xl: 2.25rem;
+  --font-size-xl: 1.25rem;
+
+  /* Colors */
+  --color-gray-100: #fffffc;
+  --color-gray-200: #fdfdfd;
+  --color-gray-300: #777;
+  --color-gray-400: #2d2211;
+  --color-gray-500: #1b232a;
+  --color-gray-600: #111;
+  --colors-backgrounds-dark: #0f0f0f;
+  --text: #fff;
+  --secondary: #ffcb74;
+  --color-darkgray-100: #a7afb7;
+  --color-darkgray-200: #a1a1a1;
+  --dark: #2f2f2f;
+  --color-darkslategray-100: rgba(47, 47, 47, 0.8);
+  --color-darkslategray-200: rgba(47, 47, 47, 0.6);
+  --primary: #5ed5a8;
+  --color-blueviolet: #9747ff;
+  --color-dimgray-100: #5f5f5f;
+  --color-gainsboro: rgba(217, 217, 217, 0);
+  --color-lightgray: #d1d1d6;
+  --color-firebrick: #dd4a4a;
+
+  /* Gaps */
+  --gap-41xl: 3.75rem;
+  --gap-7xl: 1.63rem;
+  --gap-2xl: 1.31rem;
+  --gap-3xl: 1.38rem;
+  --gap-9xl: 1.75rem;
+  --gap-12xs: 0.06rem;
+
+  /* Paddings */
+  --padding-7xs: 0.38rem;
+  --padding-12xs: 0.06rem;
+  --padding-14xl: 2.06rem;
+  --padding-24xl: 2.69rem;
+  --padding-4xs: 0.56rem;
+  --padding-base: 1rem;
+  --padding-101xl: 7.5rem;
+  --padding-6xs-8: 0.43rem;
+  --padding-xl: 1.25rem;
+  --padding-xs: 0.75rem;
+  --padding-2xs: 0.69rem;
+  --padding-56xl-8: 4.74rem;
+  --padding-8xs: 0.31rem;
+  --padding-10xl: 1.81rem;
+  --padding-lgi: 1.19rem;
+  --padding-mini: 0.94rem;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-11xs: 2px;
+  --br-12xs-5: 0.5px;
+  --br-12xs: 1px;
+  --br-3xs: 10px;
+  --br-base: 16px;
+  --br-8xs: 5px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-mini: 15px;
+}

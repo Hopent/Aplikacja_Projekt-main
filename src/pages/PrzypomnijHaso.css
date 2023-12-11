@@ -1,0 +1,118 @@
+.maski-dla-ta1 {
+  position: absolute;
+  height: 67.68%;
+  width: 194.69%;
+  top: 15.37%;
+  right: -94.69%;
+  bottom: 16.95%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  opacity: 0.7;
+}
+.przypomnij-haso1 {
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  width: 24.31rem;
+  height: 4.56rem;
+  flex-shrink: 0;
+}
+.napisy {
+  position: absolute;
+  top: 7.44rem;
+  left: -0.94rem;
+  width: 24.31rem;
+  height: 17.06rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9.13rem;
+}
+.dolny-pasek-nawigacyjny4 {
+  position: absolute;
+  top: 29.25rem;
+  left: -2rem;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 160, 0, 0) 20.83%,
+    rgba(255, 203, 116, 0.25),
+    rgba(255, 160, 0, 0.25)
+  );
+  width: 25.88rem;
+  height: 19.5rem;
+}
+.rectangle {
+  border: 0;
+  background-color: var(--color-gray-400);
+  position: absolute;
+  height: 43.9%;
+  top: 56.1%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  width: 18.75rem;
+}
+.wprowad-swj-login {
+  position: absolute;
+  top: 70.73%;
+  left: 7.33%;
+  letter-spacing: 0.03em;
+}
+.na-twj-adres {
+  margin: 0;
+}
+.na-twj-adres-container {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 140px);
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.03em;
+  color: var(--color-darkgray-100);
+}
+.panel {
+  position: absolute;
+  top: 11rem;
+  left: 1.94rem;
+  width: 18.75rem;
+  height: 7.69rem;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--nav);
+}
+.arrow-left-child {
+  position: absolute;
+  height: 55.83%;
+  width: 72.5%;
+  top: 22.08%;
+  right: 16.67%;
+  bottom: 22.08%;
+  left: 10.83%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrow-left {
+  margin: 0;
+  position: absolute;
+  top: 3.94rem;
+  left: 2.06rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.przypomnij-haso {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 48.75rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.88rem;
+  color: var(--text);
+  font-family: var(--nav);
+}

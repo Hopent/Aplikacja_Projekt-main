@@ -1,0 +1,42 @@
+.constellations-map-equ1110112-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150rem;
+  height: 74.77rem;
+  object-fit: cover;
+}
+.dolny-pasek-nawigacyjny7 {
+  position: absolute;
+  top: 29.25rem;
+  left: -2rem;
+  background: linear-gradient(180deg, rgba(15, 15, 15, 0), #000 95.94%);
+  width: 25.88rem;
+  height: 19.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-14xl) var(--padding-24xl);
+  box-sizing: border-box;
+}
+.mapa4 {
+  position: absolute;
+  top: 7.69rem;
+  left: calc(50% - 194px);
+  font-weight: 800;
+  display: inline-block;
+  width: 24.31rem;
+}
+.mapa3 {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 48.75rem;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--text);
+  font-family: var(--nav);
+}

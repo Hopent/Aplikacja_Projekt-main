@@ -1,0 +1,45 @@
+.grny-pasek-nawigacyjny5{
+    Position: "fixed";
+    Left: "3.44rem";
+    overflow: hidden;
+}
+
+.menu2 {
+  position: fixed;
+  top: 8.5%;
+  left: 15%;
+  letter-spacing: 0.03em;
+}
+.ikona-powiadomie-icon3 {
+  top: 7.69%;
+  left: 85.97%;
+  cursor: pointer;
+}
+.ikona-menu-icon1,
+.ikona-powiadomie-icon3,
+.ikona-wyszukiwarki-icon3 {
+  position: fixed;
+  height: 5%;
+  width: 8.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ikona-menu-icon1 {
+  top: 7.19%;
+  left: 5%;
+  right: 91.97%;
+  cursor: pointer;
+}
+.ikona-wyszukiwarki-icon3 {
+  top: 7.69%;
+  right: 15.38%;
+}
+.grny-pasek-nawigacyjny5 {
+  width: 299px;
+  height: 26px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--secondary);
+  font-family: var(--nav);
+}

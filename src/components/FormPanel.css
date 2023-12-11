@@ -1,0 +1,164 @@
+.giphy-3-icon2,
+.kafelek6 {
+  position: absolute;
+  height: 81.06%;
+  top: 18.94%;
+  bottom: 0;
+  border-radius: var(--br-3xs);
+}
+.kafelek6 {
+  left: calc(50% - 150px);
+  background-color: var(--dark);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 18.75rem;
+}
+.giphy-3-icon2 {
+  width: 32%;
+  right: 0;
+  left: 68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  mix-blend-mode: screen;
+}
+.zanikajcy {
+  margin: 0;
+}
+.zanikajcy-735-widocznoci-container {
+  position: absolute;
+  top: 34.85%;
+  left: 9%;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.faza-ksiyca9 {
+  position: absolute;
+  height: 40.91%;
+  top: 0;
+  left: calc(50% - 99px);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--text);
+  text-align: center;
+  display: inline-block;
+  width: 12.38rem;
+}
+.faza-ksiyca8 {
+  position: relative;
+  width: 18.75rem;
+  height: 8.25rem;
+  text-align: left;
+  color: var(--color-darkgray-100);
+}
+.kafelek7,
+.przycisk-wyboru {
+  position: absolute;
+  border-radius: var(--br-3xs);
+}
+.kafelek7 {
+  height: 86.17%;
+  width: 100%;
+  top: 13.83%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--dark);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.przycisk-wyboru {
+  border: 2px solid var(--secondary);
+  background-color: var(--color-gainsboro);
+  height: 15.43%;
+  top: 75.53%;
+  bottom: 9.04%;
+  left: calc(50% - 84px);
+  box-sizing: border-box;
+  width: 10.13rem;
+  cursor: pointer;
+}
+.przejd-do-quizu {
+  position: absolute;
+  height: 7.98%;
+  width: 43%;
+  top: 79.26%;
+  left: 30%;
+  display: inline-block;
+}
+.sign-out-squre-fill-icon6 {
+  position: absolute;
+  height: 9.04%;
+  width: 5.67%;
+  top: 78.72%;
+  right: 68.67%;
+  bottom: 12.23%;
+  left: 25.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.punktw-200-punktw-container {
+  position: absolute;
+  top: 25.53%;
+  left: 62.33%;
+  letter-spacing: 0.03em;
+  color: var(--secondary);
+  text-align: left;
+}
+.poker {
+  margin-bottom: false;
+}
+.poker-gabriel12-maxas-monik-mi {
+  margin: 0;
+  padding-left: var(--padding-base);
+}
+.poker-gabriel12-maxas-container {
+  position: absolute;
+  top: 25.53%;
+  left: 9%;
+  font-size: var(--font-inherit);
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-family: var(--font-inherit);
+  color: var(--color-darkgray-100);
+  text-align: left;
+}
+.ranking-w-quizie {
+  position: absolute;
+  height: 28.72%;
+  top: 0;
+  left: calc(50% - 142px);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  width: 17.81rem;
+}
+.newsy7,
+.ranking {
+  position: relative;
+  width: 18.75rem;
+  height: 11.75rem;
+}
+.newsy7 {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  width: 17.81rem;
+  height: 4.49rem;
+  flex-shrink: 0;
+}
+.panele {
+  position: absolute;
+  top: 12.19rem;
+  left: 1.88rem;
+  width: 18.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xl);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--text);
+  font-family: var(--nav);
+}

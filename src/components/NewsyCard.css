@@ -1,0 +1,86 @@
+.przycisk-wyboru3 {
+  position: absolute;
+  height: 9.56%;
+  top: 83.49%;
+  bottom: 6.95%;
+  left: calc(50% - 84px);
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  border: 2px solid var(--secondary);
+  box-sizing: border-box;
+  width: 10.13rem;
+  cursor: pointer;
+}
+.czytaj-dalej2 {
+  position: absolute;
+  height: 4.95%;
+  width: 43%;
+  top: 85.67%;
+  left: 30%;
+  display: inline-block;
+  color: var(--text);
+  text-align: center;
+}
+.sign-out-squre-fill-icon9 {
+  position: absolute;
+  height: 5.61%;
+  width: 5.67%;
+  top: 85.48%;
+  right: 68.67%;
+  bottom: 8.91%;
+  left: 25.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.teleskop-kosmiczny-hubble {
+  margin: 0;
+}
+.teleskop-kosmiczny-hubble-container {
+  position: absolute;
+  height: 46.42%;
+  top: 29.91%;
+  left: calc(50% - 117px);
+  letter-spacing: 0.03em;
+  color: var(--color-darkgray-100);
+  display: inline-block;
+  width: 14.38rem;
+}
+.lis-20238,
+.nasacom1,
+.nowa-planeta {
+  position: absolute;
+  height: 6.23%;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.nowa-planeta {
+  top: 18.07%;
+  left: calc(50% - 59px);
+  font-size: var(--font-size-sm);
+  color: var(--secondary);
+  width: 6.63rem;
+}
+.lis-20238,
+.nasacom1 {
+  width: 22.67%;
+  top: 6.2%;
+  left: 68.67%;
+  font-weight: 500;
+}
+.lis-20238 {
+  width: 22.33%;
+  left: 9%;
+}
+.newsy10 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--dark);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 18.75rem;
+  height: 20.06rem;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightgray);
+  font-family: var(--nav);
+}

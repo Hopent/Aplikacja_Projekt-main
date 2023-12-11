@@ -1,0 +1,122 @@
+.kafelek-wenus {
+  position: absolute;
+  height: 24.7%;
+  width: 38.57%;
+  top: 5.69%;
+  right: 55.71%;
+  bottom: 69.61%;
+  left: 5.71%;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.nazywana-jest-czasem {
+  margin: 0;
+}
+.nazywana-jest-czasem-container,
+.wenus-jest-drug-container {
+  position: absolute;
+  top: 8.75rem;
+  left: 1rem;
+  display: inline-block;
+  width: 15.56rem;
+}
+.wenus-jest-drug-container {
+  top: 2.75rem;
+  left: 8.63rem;
+  font-weight: 600;
+  color: var(--text);
+  width: 7.63rem;
+}
+.kafelki5 {
+  position: absolute;
+  height: 97.13%;
+  top: 0.48%;
+  bottom: 2.39%;
+  left: calc(50% - 165.5px);
+  border-radius: var(--br-3xs);
+  background-color: var(--dark);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 17.5rem;
+}
+.szczegowe-dane {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 10.19rem;
+}
+.rednica-wenus-wynosi {
+  margin-bottom: false;
+}
+.wenus-ma-bardzo-wolny-okres-ob {
+  margin: 0;
+  padding-left: var(--padding-lgi);
+}
+.charakterystyka-fizyczna-red-container {
+  position: relative;
+  font-size: var(--font-inherit);
+  font-weight: 500;
+  font-family: var(--font-inherit);
+  color: var(--color-darkgray-100);
+  display: inline-block;
+  width: 15.56rem;
+}
+.kafelki6 {
+  position: absolute;
+  height: 97.13%;
+  top: 0;
+  bottom: 2.87%;
+  left: calc(50% + 132.5px);
+  border-radius: var(--br-3xs);
+  background-color: var(--dark);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-8xs) var(--padding-base) var(--padding-8xs)
+    var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  color: var(--text);
+}
+.atmosfera-atmosfera-wenus-container {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 15.56rem;
+}
+.kafelki7 {
+  position: absolute;
+  height: 97.13%;
+  top: 0;
+  right: -34.12rem;
+  bottom: 2.87%;
+  border-radius: var(--br-3xs);
+  background-color: var(--dark);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-10xl) 0;
+  box-sizing: border-box;
+  font-size: var(--font-inherit);
+  font-family: var(--font-inherit);
+}
+.kafelki4 {
+  position: absolute;
+  top: 12.31rem;
+  left: calc(50% - 166px);
+  width: 20.69rem;
+  height: 26.13rem;
+  overflow-x: auto;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-100);
+  font-family: var(--nav);
+}

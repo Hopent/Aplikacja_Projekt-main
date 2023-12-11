@@ -1,0 +1,26 @@
+.property-1variant3-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--primary);
+  box-shadow: 0 20px 60px rgba(94, 213, 168, 0.16);
+}
+.next {
+  position: absolute;
+  top: 29.63%;
+  left: 39.44%;
+  letter-spacing: 0.03em;
+}
+.property-1variant3 {
+  width: 180px;
+  height: 54px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: #171d22;
+  font-family: var(--font-neue-montreal);
+}

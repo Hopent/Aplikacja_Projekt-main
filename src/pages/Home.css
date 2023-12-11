@@ -1,0 +1,35 @@
+.witaj-user {
+  margin: 0;
+  position: absolute;
+  top: 7.69rem;
+  left: calc(50% - 195px);
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 24.31rem;
+  height: 4.56rem;
+}
+.newsy6 {
+  position: absolute;
+  top: 37.19rem;
+  left: 1.88rem;
+  width: 19.44rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.home3 {
+  position: relative;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-600);
+  width: 100%;
+  height: 48.75rem;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--text);
+  font-family: var(--nav);
+}
