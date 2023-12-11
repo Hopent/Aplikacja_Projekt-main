@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button";
 import PasswordFormContainer from "../components/PasswordFormContainer";
@@ -6,10 +6,17 @@ import "./Rejestracja.css";
 
 const Rejestracja = () => {
   const navigate = useNavigate();
+  const [login, setLogin] = useState("");
+  const [password, setPassword] = useState("");
+  const [password2, setPassword2] = useState("");
 
   const onPrzyciskClick = useCallback(() => {
-    navigate("/home");
-  }, [navigate]);
+    if (password == password2 ) {
+      navigate("/logowanie");
+    } else {
+      alert("Podany login jest juz zajety");
+    }
+  }, [password2, password, navigate]);
 
   const onZalogujSiClick = useCallback(() => {
     navigate("/logowanie");
@@ -62,16 +69,19 @@ const Rejestracja = () => {
         <PasswordFormContainer
               credentialsInput="Login"
               inputLabel="Wprowadź swój Login"
+              onInputChange={(value) => setLogin(value)}
               propTop="0rem"
         />
         <PasswordFormContainer
               credentialsInput="Hasło"
               inputLabel="Wprowadź swoje hasło"
+              onInputChange={(value) => setPassword(value)}
               propTop="6rem"
         />
         <PasswordFormContainer
               credentialsInput="Potwierdz Hasło"
               inputLabel="Wprowadź ponownie swoje hasło"
+              onInputChange={(value) => setPassword2(value)}
               propTop="12rem"
         />
       </section>

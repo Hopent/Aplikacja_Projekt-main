@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import "./PasswordFormContainer.css";
 
-const PasswordFormContainer = ({ credentialsInput, inputLabel, propTop }) => {
+const PasswordFormContainer = ({ credentialsInput, inputLabel, propTop, onInputChange }) => {
   const frameDivStyle = useMemo(() => {
     return {
       top: propTop,
@@ -12,8 +12,12 @@ const PasswordFormContainer = ({ credentialsInput, inputLabel, propTop }) => {
     <div className="haso-parent" style={frameDivStyle}>
       <div className="haso1">{credentialsInput}</div>
       <div className="frame5">
-        <textarea className="rectangle1" />
-        <div className="wprowad-swoje-haso">{inputLabel}</div>
+        <input
+          type="text"
+          placeholder={inputLabel}
+          className="rectangle1"
+          onChange={(e) => onInputChange(e.target.value)}
+        />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button";
 import PasswordFormContainer from "../components/PasswordFormContainer";
@@ -6,10 +6,16 @@ import "./Logowanie.css";
 
 const Logowanie = () => {
   const navigate = useNavigate();
+  const [login, setLogin] = useState("");
+  const [password, setPassword] = useState("");
 
   const onPrzyciskClick = useCallback(() => {
-    navigate("/home");
-  }, [navigate]);
+    if (login == password ) {
+      navigate("/home");
+    } else {
+      alert("Nieprawidłowy login lub hasło");
+    }
+  }, [login, password, navigate]);
 
   const onZamknijClick = useCallback(() => {
     navigate("/ekran-powitalny");
@@ -70,10 +76,12 @@ const Logowanie = () => {
             <PasswordFormContainer
               credentialsInput="Hasło"
               inputLabel="Wprowadź swoje hasło"
+              onInputChange={(value) => setPassword(value)}
             />
             <PasswordFormContainer
               credentialsInput="Login"
               inputLabel="Wprowadź swój login"
+              onInputChange={(value) => setLogin(value)}
               propTop="0rem"
             />
          </div>
