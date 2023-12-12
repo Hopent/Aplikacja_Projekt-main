@@ -1,9 +1,13 @@
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import PasswordFormContainer from "../components/PasswordFormContainer";
 import "./Ustawienia2.css";
 
 const Ustawienia2 = () => {
   const navigate = useNavigate();
+  const [login, setLogin] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const onIkonaPowiadomieClick = useCallback(() => {
     navigate("/powiadomienia");
@@ -58,10 +62,24 @@ const Ustawienia2 = () => {
       <img className="ustawienia-2-child" alt="" src="/ellipse-213@2x.png" />
       <div className="danka121">@danka12</div>
       <b className="danuta1">Danuta</b>
-      <div className="nazwa-uytkownika">Nazwa użytkownika:</div>
-      <img className="ustawienia-2-item" alt="" src="/vector-9.svg" />
-      <div className="ustawienia-2-inner" />
-      <div className="adres-e-mail">Adres e-mail:</div>
+      <div className="nazwa-uytkownika">Nazwa użytkownika:
+      <PasswordFormContainer
+              inputType="Text"
+              credentialsInput=""
+              inputLabel="Wprowadź nazwe"
+              onInputChange={(value) => setLogin(value)}
+              propTop="0rem"
+      />
+      </div>
+      <div className="adres-e-mail">Adres e-mail:
+      <PasswordFormContainer
+              inputType="Text"
+              credentialsInput=""
+              inputLabel="Wprowadź adres e-mail"
+              onInputChange={(value) => setEmail(value)}
+              propTop="0rem"
+      />
+      </div>
       <img className="ustawienia-2-child1" alt="" src="/vector-10.svg" />
       <img className="background-icon" alt="" src="/background.svg" />
       <img
@@ -69,10 +87,17 @@ const Ustawienia2 = () => {
         alt=""
         src="/cameraplusoutline.svg"
       />
-      <div className="danutatukielcepl">danuta@tu.kielce.pl</div>
-      <div className="haso">Hasło:</div>
+      
+      <div className="haso">Hasło:
+      <PasswordFormContainer
+              inputType="Password"
+              credentialsInput=""
+              inputLabel="Wprowadź hasło"
+              onInputChange={(value) => setPassword(value)}
+              propTop="0rem"
+      />
+      </div>
       <img className="ustawienia-2-child2" alt="" src="/vector-10.svg" />
-      <div className="div2">*****************</div>
       <button className="przyciski-wyboru2" onClick={onPrzyciskiWyboruClick}>
         <b className="zapisz-zmiany1">Zapisz zmiany</b>
         <img className="sign-out-squre-fill-icon2" alt="" src="/vector2.svg" />
