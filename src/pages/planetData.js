@@ -9,20 +9,8 @@ import mercury from "../textures/mercury.jpg";
 import ring from "../textures/saturn_ring.png";
 
 const random = (a, b) => a + Math.random() * b;
-const randomInt = (a, b) => Math.floor(random(a, b));
-const randomColor = () =>
-  `rgb(${randomInt(80, 50)}, ${randomInt(80, 50)}, ${randomInt(80, 50)})`;
-const shuffle = (a) => {
-  const temp = a.slice(0);
-  for (let i = temp.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [temp[i], temp[j]] = [temp[j], temp[i]];
-  }
-  return temp;
-};
 
-
-const textures = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, jupiter];
+const textures = [mercury, venus, earth, mars, jupiter, saturn, uranus, neptune, ring];
 const names = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "ring"];
 const sizes = [0.04,0.09,0.09,0.05,1,0.85,0.36,0.35,0.7]
 const xOrbit = [4, 6.8, 9, 13.7, 43.1, 77.6, 150, 200,77.6] 

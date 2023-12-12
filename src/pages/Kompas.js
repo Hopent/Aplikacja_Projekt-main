@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Top_Navigation from "../components/Top_Navigation";
 import Bottom_Navigation from "../components/Bottom_Navigation";
 import "./Kompas.css";
+import CompassApp from "../components/CompassApp";
 
 const Kompas = () => {
   const navigate = useNavigate();
@@ -23,6 +24,7 @@ const Kompas = () => {
         onIkonaMenuIconClick={onIkonaMenuIconClick}
       />
 
+      <CompassApp/>
 
 
 

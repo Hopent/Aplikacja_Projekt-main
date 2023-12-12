@@ -140,7 +140,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" />
+      <Route path="/" element={<EkranPowitalny />}/>
       <Route path="/ekran-powitalny" element={<EkranPowitalny />} />
       <Route path="/ustawienia-3" element={<Ustawienia3 />} />
       <Route path="/ustawienia-2" element={<Ustawienia2 />} />
